@@ -1,0 +1,25 @@
+.header{
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  &__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      min-width: 1.375rem;
+      margin-right: 0.75rem;
+    }
+    span{
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: var(--blue);
+      & + span{
+        color: var(--blue-dark)
+      }
+    }
+  }
+}
